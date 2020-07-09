@@ -1,0 +1,8 @@
+##dev environment
+spring:
+  profiles: dev
+  server:
+    port: 8081
+#注意冒号后面需要接一个空格
+test: sss
+
