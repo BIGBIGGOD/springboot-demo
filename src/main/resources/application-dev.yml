@@ -1,8 +1,29 @@
-##dev environment
 spring:
+  #开发环境
   profiles: dev
+  #端口号
   server:
     port: 8081
+  #redis配置
+  redis:
+    database: 1
+    host: 47.104.128.12
+    port: 6379
+    password: 123456
+    timeout: 0
+    # redis连接池配置
+    jedis:
+      pool:
+        # 最大可用连接数（默认为8，负数表示无限）
+        max-active: 8
+        # 最大空闲连接数（默认为8，负数表示无限）
+        max-idle: 8
+        # 最小空闲连接数（默认为0，该值只有为正数才有用）
+        min-idle: 0
+        # 从连接池中获取连接最大等待时间（默认为-1，单位为毫秒，负数表示无限）
+        max-wait: -1
+
+
 #注意冒号后面需要接一个空格
 test: sss
 
