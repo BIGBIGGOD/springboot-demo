@@ -1,4 +1,4 @@
-﻿package com.example.demo.filter;
+package com.example.demo.filter;
 
 import javax.servlet.Filter;
 
@@ -11,7 +11,7 @@ import org.springframework.web.filter.DelegatingFilterProxy;
 /**
  * @author jiangqingdong
  * @version v1.0
- * @Description
+ * @Description springboot中过滤器的使用
  * @DATE 2020/7/9 0009 12:21
  * @Copyright Copyright © 2019 深圳花儿绽放网络科技股份有限公司. All rights reserved.
  */

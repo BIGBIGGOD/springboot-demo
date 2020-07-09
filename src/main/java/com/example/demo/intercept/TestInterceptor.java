@@ -1,4 +1,4 @@
-﻿package com.example.demo.intercept;
+package com.example.demo.intercept;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 /**
  * @author jiangqingdong
  * @version v1.0
- * @Description
+ * @Description springboot中拦截器的使用
  * @DATE 2020/7/9 0009 12:15
  * @Copyright Copyright © 2019 深圳花儿绽放网络科技股份有限公司. All rights reserved.
  */
