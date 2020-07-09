@@ -49,3 +49,20 @@ spring:
         min-idle: 1
         # 从连接池中获取连接最大等待时间（默认为-1，单位为毫秒，负数表示无限）
         max-wait: -1
+
+  #rabbitmq配置
+  rabbitmq:
+    host: 106.52.169.187
+    port: 5672
+    virtual-host: tulingvip-springboot-rabbitmq
+    username: root
+    password: root
+    connection-timeout: 5000
+    template:
+      mandatory: true
+
+#配置mybatis
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true  #开启驼峰命名
+  mapper-locations: classpath*:/xmlMapper/**/*.xml  指定配置文件的位置
