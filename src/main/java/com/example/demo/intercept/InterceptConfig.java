@@ -21,6 +21,6 @@ public class InterceptConfig {
      * 注册拦截器 * @param registry
      */
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(testInterceptor).addPathPatterns("/**").excludePathPatterns("/index.html", "/");
+        registry.addInterceptor(testInterceptor).addPathPatterns("/**").excludePathPatterns("/index.html", "/","/druid/**");
     }
 }

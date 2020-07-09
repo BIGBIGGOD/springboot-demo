@@ -14,12 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @Value("${test}")
-    private String str;
-
     @RequestMapping("/test")
     public String testHelloWorld() {
-        System.out.println("阿斯蒂芬" + str);
+        System.out.println("阿斯蒂芬");
         return "test,hello";
     }
 }
