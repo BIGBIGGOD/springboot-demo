@@ -50,7 +50,7 @@ spring:
         # 从连接池中获取连接最大等待时间（默认为-1，单位为毫秒，负数表示无限）
         max-wait: -1
 
-  #rabbitmq配置
+  #rabbitmq配置，该配置参数与RabbitProperties类中参数对应，springboot的RabbitAutoConfiguration中有自动装配rabbitmq的逻辑
   rabbitmq:
     host: 106.52.169.187
     port: 5672
