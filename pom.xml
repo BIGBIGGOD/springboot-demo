@@ -114,6 +114,12 @@
             <scope>compile</scope>
         </dependency>
 
+        <!-- 整合 actuator 监控管理 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
         <!-- 整合Swagger2  -->
         <dependency>
             <groupId>io.springfox</groupId>
